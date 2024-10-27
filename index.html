@@ -84,71 +84,125 @@
       arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
       shadow="type: pcfsoft"
     >
+     
+            <a-camera  rotation-reader> </a-camera>  
    
+     Light
      
-      <a-entity light="type: ambient; intensity: 0.1;"></a-entity>
+      <a-entity light="type: ambient; intensity: 0.7;"></a-entity>
+    
+    <a-entity light="type: point; intensity: 16; distance: 28; decay: 12"
+          position="-1 -1 0"></a-entity> 
 
-
+        <a-entity light="type: point; intensity: 18; distance: 29; decay: 12"
+          position="6 8 -8"></a-entity> 
      
-          <a-entity light="type: point; intensity: 8; distance: 42; decay: 12"
-          position="2 12 -29"></a-entity> 
-     
-     
-     
-      <a-entity light="type: directional;
+     <a-entity light="type: directional;
                    castShadow: true;
                     shadowMapHeight: 512;
                       shadowMapWidth: 512;
-                      shadowCameraLeft: 1;
-                      shadowCameraRight: -1;
-                      shadowCameraBottom: 1;
-                      shadowCameraTop: 2;
-                      shadowCameraVisible: true;"
+                      shadowCameraLeft: 0;
+                      shadowCameraRight: -20;
+                      shadowCameraBottom: 8;
+                      shadowCameraTop: -5;
+                      shadowCameraVisible: false;"
                    
                            id="light"
-               target="ver-sacrum"
+                target="avatar; gold; particles; versacrum; tree;"
          
-           position="4 4 4"></a-entity>
+           position="-8 3 6"></a-entity>
      
      
           <a-entity light="type: directional;
                    castShadow: true;
                     shadowMapHeight: 512;
                       shadowMapWidth: 512;
-                      shadowCameraLeft: 1;
-                      shadowCameraRight: -1;
+                      shadowCameraLeft: 5;
+                      shadowCameraRight: 2;
                       shadowCameraBottom: 1;
-                      shadowCameraTop: 2;
+                      shadowCameraTop: 5;
                       shadowCameraVisible: false;"
                    
                            id="light"
-               target="ver-sacrum"
+                 target="avatar; gold; particles; versacrum; tree;"
          
-           position="0 1 2"></a-entity>
+           position="4 2 4"></a-entity>
      
      
+     Assets
+     Avatar
      
       <a-assets timeout="30000">
-        <a-asset-item id="ver-sacrum" src="https://uxfuturism.github.io/Ver-Sacrum/Ver-sacrum-test.glb" response-type="arraybuffer"></a-asset-item>
+        <a-asset-item id="avatar" src="https://uxfuturism.github.io/Ver-Sacrum/avatar.gltf" response-type="arraybuffer"></a-asset-item>
       </a-assets>
 
-       <a-camera  rotation-reader> </a-camera>
-
-     
-     
- <a-entity id="ver-sacrum" position="0 -6 -10" scale="6 6 6">
-        <a-entity position="0 -2 -2" rotation="0 -90 0"
-                  gltf-model="#ver-sacrum"
+      <a-entity id="avatar" position="0 -2.5 -7" scale="1.6 1.6 1.6">
+        <a-entity position="0 0 0" rotation="0 -90 0"
+                  gltf-model="#avatar"
                   animation-mixer
-                  shadow="cast: false; receive: false"></a-entity>
+                  shadow="cast: true; receive: false"></a-entity>
+      </a-entity>  
+     
+     Gold  
+     
+         <a-assets timeout="30000">
+        <a-asset-item id="gold" src="https://uxfuturism.github.io/Ver-Sacrum/gold.gltf" response-type="arraybuffer"></a-asset-item>
+      </a-assets>
+
+      <a-entity id="ver-sacrum" position="0 2.9 -8" scale="1.6 1.6 1.6">
+        <a-entity position="0 0 0" rotation="0 -90 0"
+                  gltf-model="#gold"
+                  animation-mixer
+                  shadow="cast: false; receive: true"></a-entity>
       </a-entity>  
 
+     
+     Tree  
+     
+         <a-assets timeout="30000">
+        <a-asset-item id="tree" src="https://uxfuturism.github.io/Ver-Sacrum/tree.gltf" response-type="arraybuffer"></a-asset-item>
+      </a-assets>
+
+      <a-entity id="ver-sacrum" position="0.4 -9.5 -12" scale="2.1 2.1 2.1">
+        <a-entity position="0 0 0" rotation="0 -90 0"
+                  gltf-model="#tree"
+                  animation-mixer
+                  shadow="cast: false; receive: true"></a-entity>
+      </a-entity>  
+     
+     
+        Letters  
+     
+         <a-assets timeout="30000">
+        <a-asset-item id="versacrum" src="https://uxfuturism.github.io/Ver-Sacrum/versacrum.gltf" response-type="arraybuffer"></a-asset-item>
+      </a-assets>
+
+      <a-entity id="ver-sacrum" position="0.4 -2 -6.5" scale="1.6 1.6 1.6">
+        <a-entity position="0 0 0" rotation="0 -90 0"
+                  gltf-model="#versacrum"
+                  animation-mixer
+                  shadow="cast: true; receive: true"></a-entity>
+      </a-entity> 
+     
+     
+        Particles  
+     
+         <a-assets timeout="30000">
+        <a-asset-item id="particles" src="https://uxfuturism.github.io/Ver-Sacrum/particles.gltf" response-type="arraybuffer"></a-asset-item>
+      </a-assets>
+
+      <a-entity id="particles" position="0 -2 -8" scale="1.6 1.6 1.6">
+        <a-entity position="0 0 0" rotation="0 -90 0"
+                  gltf-model="#particles"
+                  animation-mixer
+                  shadow="cast: true; receive: true"></a-entity>
+      </a-entity> 
 
      
     </a-scene>
 
-        <a href="my personal website"><button>Learn more</button></a>
+        <a href="https://www.linkedin.com/in/anrch-ftrsm/"><button>Hello world</button></a>
   
-  
+   
   </body>
 </html>
