@@ -1,0 +1,345 @@
+{
+    "asset": {
+        "copyright": "2024 (c) Adobe Inc.",
+        "generator": "Adobe Substance 3D Stager - 3b65cae5d66550310f3fa94441098965a88f7a29",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 22751,
+            "type": "VEC3",
+            "max": [
+                0.12063230574131012,
+                0.16971181333065034,
+                0.4634612500667572
+            ],
+            "min": [
+                -0.2799668312072754,
+                -0.18648183345794679,
+                -0.05715565383434296
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 22751,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 22751,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 4083,
+            "type": "SCALAR",
+            "max": [
+                22750.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5125,
+            "count": 150,
+            "type": "SCALAR",
+            "max": [
+                957.0
+            ],
+            "min": [
+                3.0
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 23025,
+            "type": "SCALAR",
+            "max": [
+                20604.0
+            ],
+            "min": [
+                8.0
+            ]
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5125,
+            "count": 49416,
+            "type": "SCALAR",
+            "max": [
+                22601.0
+            ],
+            "min": [
+                347.0
+            ]
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 14184,
+            "type": "SCALAR",
+            "max": [
+                22329.0
+            ],
+            "min": [
+                812.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 273012,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 273012,
+            "byteLength": 273012,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 546024,
+            "byteLength": 182008,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 728032,
+            "byteLength": 16332,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 744364,
+            "byteLength": 600,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 744964,
+            "byteLength": 92100,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 837064,
+            "byteLength": 197664,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1034728,
+            "byteLength": 56736,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1091464,
+            "uri": "avatar_binary.bin"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.45078611373901369,
+                    0.03189590573310852,
+                    0.008568113669753075,
+                    1.0
+                ],
+                "metallicFactor": 0.11999999731779099,
+                "roughnessFactor": 0.5
+            },
+            "name": "Basic Plastic%2ERED",
+            "doubleSided": true,
+            "extensions": {
+                "KHR_materials_specular": {
+                    "specularColorFactor": [
+                        0.45078611373901369,
+                        0.03189590573310852,
+                        0.008568113669753075
+                    ],
+                    "specularFactor": 0
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5271149277687073,
+                    0.27889445424079897,
+                    0.027320846915245057,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "name": "Gold%2Erough%2E001",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.9301108717918396,
+                    0.5711249113082886,
+                    0.3185468316078186,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "emissiveFactor": [
+                0.05000000074505806,
+                0.05000000074505806,
+                0.05000000074505806
+            ],
+            "name": "Material%2E006",
+            "doubleSided": true,
+            "extensions": {
+                "KHR_materials_specular": {
+                    "specularColorFactor": [
+                        0.3185468316078186,
+                        0.3185468316078186,
+                        0.3185468316078186
+                    ]
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.010960035026073456,
+                    0.011612257920205593,
+                    0.027320846915245057,
+                    1.0
+                ],
+                "metallicFactor": 0.27000001072883608,
+                "roughnessFactor": 0.4099999964237213
+            },
+            "name": "Basic Plastic Dark blue",
+            "doubleSided": true,
+            "extensions": {
+                "KHR_materials_specular": {
+                    "specularColorFactor": [
+                        0.002124690217897296,
+                        0.002428250852972269,
+                        0.004776999820023775
+                    ],
+                    "specularFactor": 0
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.01444380171597004,
+                    0.08228267729282379,
+                    0.09530720859766007,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "name": "Material%2E008",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Avatar_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                },
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 4,
+                    "material": 1
+                },
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 5,
+                    "material": 2
+                },
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 6,
+                    "material": 3
+                },
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 7,
+                    "material": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "working_cam_n3d"
+        },
+        {
+            "translation": [
+                0.6817719340324402,
+                3.966181516647339,
+                0.07175632566213608
+            ],
+            "rotation": [
+                0.7071067094802856,
+                0.0,
+                0.0,
+                0.7071068286895752
+            ],
+            "scale": [
+                8.55774211883545,
+                8.55774211883545,
+                8.55774211883545
+            ],
+            "mesh": 0,
+            "name": "Avatar_n3d"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0,
+    "extensionsUsed": [
+        "KHR_materials_specular"
+    ]
+}

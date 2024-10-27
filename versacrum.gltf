@@ -1,0 +1,157 @@
+{
+    "asset": {
+        "copyright": "2024 (c) Adobe Inc.",
+        "generator": "Adobe Substance 3D Stager - 3b65cae5d66550310f3fa94441098965a88f7a29",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 18688,
+            "type": "VEC3",
+            "max": [
+                0.18459326028823853,
+                0.14900675415992738,
+                0.2328556925058365
+            ],
+            "min": [
+                -0.1832750141620636,
+                -0.22315216064453126,
+                -0.19593217968940736
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 18688,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 18688,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 34896,
+            "type": "SCALAR",
+            "max": [
+                18687.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 224256,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 224256,
+            "byteLength": 224256,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 448512,
+            "byteLength": 149504,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 598016,
+            "byteLength": 139584,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 737600,
+            "uri": "versacrum_binary.bin"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5209956765174866,
+                    0.2788943350315094,
+                    0.027320891618728639,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "name": "GOLD4",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "V-252E001_n3d2",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "working_cam_n3d"
+        },
+        {
+            "children": [
+                2
+            ],
+            "translation": [
+                0.5109509825706482,
+                -0.1808752417564392,
+                0.0683840960264206
+            ],
+            "name": "VERSACRUM FOR AR-VER-LETTERS_n3d"
+        },
+        {
+            "translation": [
+                -1.079624891281128,
+                2.3464107513427736,
+                -0.018578290939331056
+            ],
+            "rotation": [
+                0.29340115189552309,
+                0.5896801352500916,
+                -0.1167820617556572,
+                0.7433404922485352
+            ],
+            "scale": [
+                11.688552856445313,
+                11.68855094909668,
+                11.688552856445313
+            ],
+            "mesh": 0,
+            "name": "V%2E001_n3d"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}

@@ -1,0 +1,225 @@
+{
+    "asset": {
+        "copyright": "2024 (c) Adobe Inc.",
+        "generator": "Adobe Substance 3D Stager - 3b65cae5d66550310f3fa94441098965a88f7a29",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 24528,
+            "type": "VEC3",
+            "max": [
+                0.02535734511911869,
+                0.14265678822994233,
+                0.09071691334247589
+            ],
+            "min": [
+                -0.048503048717975619,
+                -0.013098368421196938,
+                -0.031919658184051517
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 24528,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 24528,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 25926,
+            "type": "SCALAR",
+            "max": [
+                24504.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5125,
+            "count": 21126,
+            "type": "SCALAR",
+            "max": [
+                24527.0
+            ],
+            "min": [
+                482.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 294336,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 294336,
+            "byteLength": 294336,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 588672,
+            "byteLength": 196224,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 784896,
+            "byteLength": 103704,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 888600,
+            "byteLength": 84504,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 973104,
+            "uri": "tree_binary.bin"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.45078611373901369,
+                    0.030713487416505815,
+                    0.008023258298635483,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.22941569983959199
+            },
+            "name": "REd",
+            "doubleSided": true,
+            "extensions": {
+                "KHR_materials_specular": {
+                    "specularColorFactor": [
+                        0.45078611373901369,
+                        0.030713487416505818,
+                        0.008023258298635483
+                    ]
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.010329855605959893,
+                    0.011612257920205593,
+                    0.026241334155201913,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.22941569983959199
+            },
+            "name": "Blue",
+            "doubleSided": true,
+            "extensions": {
+                "KHR_materials_specular": {
+                    "specularColorFactor": [
+                        0.010329855605959893,
+                        0.011612257920205592,
+                        0.026241334155201913
+                    ]
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Tree_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                },
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 4,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "working_cam_n3d"
+        },
+        {
+            "children": [
+                2
+            ],
+            "translation": [
+                8.217679023742676,
+                4.361723899841309,
+                -0.0012899684952571989
+            ],
+            "scale": [
+                1.2999999523162842,
+                1.2999999523162842,
+                1.2999999523162842
+            ],
+            "name": "Ver-Sacrum-AR-Texturing-new-export-DN-Treev2_n3d"
+        },
+        {
+            "translation": [
+                -5.784629821777344,
+                2.9976871013641359,
+                -1.0183650255203248
+            ],
+            "rotation": [
+                0.8959547877311707,
+                0.004849070683121681,
+                0.055379293859004977,
+                0.4406525492668152
+            ],
+            "scale": [
+                39.49348831176758,
+                39.49346923828125,
+                39.49347686767578
+            ],
+            "mesh": 0,
+            "name": "Tree_n3d"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0,
+    "extensionsUsed": [
+        "KHR_materials_specular"
+    ]
+}
