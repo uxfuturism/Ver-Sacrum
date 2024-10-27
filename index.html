@@ -87,17 +87,18 @@
       <a-assets timeout="30000">
         <a-asset-item id="ver-sacrum" src="https://uxfuturism.github.io/Ver-Sacrum/Ver-sacrum-test.glb" response-type="arraybuffer"></a-asset-item>
       </a-assets>
+
+     <a-camera  rotation-reader> </a-camera>
      
      
-     
- <a-entity id="ARcard" position="0 -2 -20" scale="1.2 1.2 1.2">
-        <a-entity position="0 0 0"
+ <a-entity id="ARcard" position="0 -2 -20" scale="2 2 2">
+        <a-entity position="0 0 0" rotation="0 -90 0"
                   gltf-model="#ver-sacrum"
                   animation-mixer
-                  shadow="cast: true; receive: false"></a-entity>
+                  shadow="cast: true; receive: true"></a-entity>
       </a-entity>  
       
-      <a-entity light="type: ambient; intensity: 0.1;"></a-entity>
+      <a-entity light="type: ambient; intensity: 0.4;"></a-entity>
       <a-light type="directional"
                light="castShadow: true;
                       shadowMapHeight: 1024;
