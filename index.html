@@ -88,11 +88,10 @@
      
       <a-entity light="type: ambient; intensity: 0.1;"></a-entity>
 
-     <a-entity light="type: point; intensity: 54.75; distance: 32; decay: 8"
-          position="0 12 -20"></a-entity> 
+
      
-          <a-entity light="type: point; intensity: 28.75; distance: 88; decay: 20"
-          position="-1 -4 -8"></a-entity> 
+          <a-entity light="type: point; intensity: 8; distance: 42; decay: 12"
+          position="2 12 -29"></a-entity> 
      
      
      
@@ -104,12 +103,12 @@
                       shadowCameraRight: -1;
                       shadowCameraBottom: 1;
                       shadowCameraTop: 2;
-                      shadowCameraVisible: false;"
+                      shadowCameraVisible: true;"
                    
                            id="light"
                target="ver-sacrum"
          
-           position="-8 -3 2"></a-entity>
+           position="4 4 4"></a-entity>
      
      
           <a-entity light="type: directional;
@@ -125,7 +124,7 @@
                            id="light"
                target="ver-sacrum"
          
-           position="4 2 4"></a-entity>
+           position="0 1 2"></a-entity>
      
      
      
@@ -133,14 +132,15 @@
         <a-asset-item id="ver-sacrum" src="https://uxfuturism.github.io/Ver-Sacrum/Ver-sacrum-test.glb" response-type="arraybuffer"></a-asset-item>
       </a-assets>
 
-     <a-camera position="0 5 8" fov="30" touchEnabled="false" wasd-controls-enabled="false" look-controls-enabled="true" touchEnabled="false"> 
+       <a-camera  rotation-reader> </a-camera>
+
      
      
- <a-entity id="ver-sacrum" position="0 -6 -14" scale="2 2 2">
-        <a-entity position="0 0 0" rotation="0 -90 0"
+ <a-entity id="ver-sacrum" position="0 -6 -10" scale="6 6 6">
+        <a-entity position="0 -2 -2" rotation="0 -90 0"
                   gltf-model="#ver-sacrum"
                   animation-mixer
-                  shadow="cast: true; receive: True"></a-entity>
+                  shadow="cast: false; receive: false"></a-entity>
       </a-entity>  
 
 
