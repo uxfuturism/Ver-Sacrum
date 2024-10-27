@@ -1,0 +1,169 @@
+{
+    "asset": {
+        "copyright": "2024 (c) Adobe Inc.",
+        "generator": "Adobe Substance 3D Stager - 3b65cae5d66550310f3fa94441098965a88f7a29",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 1649,
+            "type": "VEC3",
+            "max": [
+                0.829904317855835,
+                0.829904317855835,
+                0.829904317855835
+            ],
+            "min": [
+                -0.8299043774604797,
+                -0.829904317855835,
+                -0.829904317855835
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 1649,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 1649,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 1649,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5125,
+            "count": 9216,
+            "type": "SCALAR",
+            "max": [
+                1648.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 19788,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 19788,
+            "byteLength": 19788,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 39576,
+            "byteLength": 26384,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 65960,
+            "byteLength": 13192,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 79152,
+            "byteLength": 36864,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 116016,
+            "uri": "gold_binary.bin"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5271123051643372,
+                    0.2788946032524109,
+                    0.02732095681130886,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "name": "GOLD3",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Gold_n3d2",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TANGENT": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "working_cam_n3d"
+        },
+        {
+            "children": [
+                2
+            ],
+            "translation": [
+                1.126096248626709,
+                -4.432436466217041,
+                0.0
+            ],
+            "scale": [
+                1.1300528049468995,
+                1.1300528049468995,
+                1.1300528049468995
+            ],
+            "name": "VERSACRUM FOR AR-Sun_n3d2"
+        },
+        {
+            "translation": [
+                -0.9964987635612488,
+                4.835201263427734,
+                0.0
+            ],
+            "scale": [
+                0.1443672627210617,
+                1.0999760627746583,
+                1.0999760627746583
+            ],
+            "mesh": 0,
+            "name": "Gold_n3d"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}
