@@ -1,0 +1,164 @@
+{
+    "asset": {
+        "copyright": "2024 (c) Adobe Inc.",
+        "generator": "Adobe Substance 3D Stager - 3b65cae5d66550310f3fa94441098965a88f7a29",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 1367,
+            "type": "VEC3",
+            "max": [
+                1.1743535995483399,
+                4.920586109161377,
+                1.1599342823028565
+            ],
+            "min": [
+                -1.279010534286499,
+                -9.440775871276856,
+                -1.1655752658843995
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 1367,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 1367,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 2250,
+            "type": "SCALAR",
+            "max": [
+                1366.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 16404,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 16404,
+            "byteLength": 16404,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 32808,
+            "byteLength": 10936,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 43744,
+            "byteLength": 9000,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 52744,
+            "uri": "land_binary.bin"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.01032982300966978,
+                    0.011612244881689549,
+                    0.026241222396492959,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.44999998807907107
+            },
+            "name": "Dark Blue3",
+            "doubleSided": true,
+            "extensions": {
+                "KHR_materials_specular": {
+                    "specularColorFactor": [
+                        0.01032982300966978,
+                        0.011612244881689549,
+                        0.02624122239649296
+                    ]
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Land_n3d",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "working_cam_n3d"
+        },
+        {
+            "children": [
+                2
+            ],
+            "translation": [
+                1.8763043880462647,
+                2.2945468425750734,
+                -0.0004895019228570163
+            ],
+            "name": "land_n3d"
+        },
+        {
+            "translation": [
+                -1.7337942123413087,
+                0.5111725330352783,
+                0.00753217376768589
+            ],
+            "scale": [
+                2.7233779430389406,
+                0.2971915900707245,
+                2.4968597888946535
+            ],
+            "mesh": 0,
+            "name": "Land_n3d"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0,
+    "extensionsUsed": [
+        "KHR_materials_specular"
+    ]
+}
