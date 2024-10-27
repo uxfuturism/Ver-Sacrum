@@ -84,8 +84,34 @@
       arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
       shadow="type: pcfsoft"
     >
-
-    
+   
+     
+      <a-entity light="type: ambient; intensity: 0.0;"></a-entity>
+ 
+     <a-entity light="type: directional;
+                   castShadow: false;
+                   intensity: 7.2;
+                   shadowCameraVisible: false;"
+            position="4 4 4"></a-entity>
+     
+     
+      
+     
+     
+  <a-entity light="type: directional;
+                   castShadow: true;
+                   intensity: 2.1;
+                   shadowCameraVisible: false;"
+            position="-8 -3 2"></a-entity>
+     
+     
+     <a-entity light="type: point; intensity: 54.75; distance: 32; decay: 8"
+          position="0 12 -20"></a-entity> 
+     
+     
+     
+     
+     
       <a-assets timeout="30000">
         <a-asset-item id="ver-sacrum" src="https://uxfuturism.github.io/Ver-Sacrum/Ver-sacrum-test.glb" response-type="arraybuffer"></a-asset-item>
       </a-assets>
@@ -93,14 +119,13 @@
      <a-camera  rotation-reader> </a-camera>
      
      
- <a-entity id="ARcard" position="0 -4 -15" scale="2 2 2">
+ <a-entity id="ARcard" position="0 -6 -14" scale="2 2 2">
         <a-entity position="0 0 0" rotation="0 -90 0"
                   gltf-model="#ver-sacrum"
                   animation-mixer
-                  shadow="cast: true; receive: true"></a-entity>
+                  shadow="cast: false; receive: false"></a-entity>
       </a-entity>  
 
-  <a-entity light="type: ambient; color: #FFFCF2"; intensity: 12.5;"></a-entity>
 
      
     </a-scene>
